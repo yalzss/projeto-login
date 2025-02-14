@@ -16,6 +16,9 @@
         float: right;
         width: 60%;
     }
+    div#formulario >p#negrito {
+        text-align: center;
+    }
 }
 @media screen and (min-width:992px) {
     body {
@@ -33,11 +36,12 @@
         float: left;
         width: 50%;
     }
-}
-div#formulario > h1 {
-    font-size: 2em;
+  div#formulario > h1 {
+    font-size: 2.3em;
     margin-bottom: 10px;
 }
 div#formulario > p {
-    font-size: 1.3em;
+    font-size: 1.7em;
+    text-indent: 30px;
+}  
 }

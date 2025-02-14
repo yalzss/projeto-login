@@ -1,0 +1,49 @@
+@charset "UTF-8";
+div.campo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+/* Estilização do label */
+div.campo > label.meio {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #797D81;
+    transition: 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+/* Quando o input está focado ou preenchido */
+div.campo > input:focus + label.meio,
+div.campo > input:not(:placeholder-shown) + label.meio {
+    top: 5px;
+    font-size: 0.8em;
+    color: #0F0A0A;
+}
+
+div.campo > input {
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #797D81;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+}
+
+/* Removendo a borda feia ao clicar */
+div.campo > input:focus {
+    border-bottom: 2px solid #0F0A0A;
+}
