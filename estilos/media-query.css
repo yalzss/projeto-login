@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
+@media screen and (max-width:900px) and (orientation: landscape) {
+    section#login {
+        width: 300px;
+        height: 100vh;
+    }
+    div#formulario > h1 {
+        font-size: 1.7em;
+    }
+    div#formulario > p#paragrafo {
+        font-size: 1em;
+        text-align: center;
+    }
+    div#formulario > p#negrito {
+        font-size: 1em;
+        margin-bottom:-15px
+    }
+    form > input[type="submit"] {
+        height: 25px;
+    }
+    form > a {
+        height: 25px;
+    }
+}
 @media screen and (min-width:800px) and (max-width:992px) {
     body {
         background-image: linear-gradient(to top, #caceca, #797D81, #0F0A0A);
