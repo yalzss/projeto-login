@@ -17,10 +17,10 @@
         margin-bottom:-15px
     }
     form > input[type="submit"] {
-        height: 25px;
+        height: 30px;
     }
     form > a {
-        height: 25px;
+        height: 30px;
     }
 }
 @media screen and (min-width:800px) and (max-width:992px) {
